@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+  </head>
+
+  <body>
+    <div
+      class="
+        main
+        d-flex
+        position-relative
+        flex-column flex-sm-row
+        mx-auto
+        mt-5
+        mb-4 mb-lg-5
+      "
+    >
+      <img
+        class="position-absolute img"
+        src="./illustration-box-desktop.svg"
+        alt=""
+      />
+      <img
+        class="mobile mobile-bg position-absolute"
+        src="./bg-pattern-mobile.svg"
+        alt=""
+      />
+      <div class="col">
+        <div class="position-relative">
+          <img
+            class="position-absolute imgOne"
+            src="./bg-pattern-desktop.svg"
+            alt=""
+          />
+          <img
+            class="position-absolute imgTwo"
+            src="./illustration-woman-online-desktop.svg"
+            alt=""
+          />
+          <img
+            class="mobile mobile-woman position-absolute"
+            src="./illustration-woman-online-mobile.svg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="col col-sm-5 m-5 overflow-auto">
+        <div class="text-section flex-column">
+          <h1 class="my-4">FAQ</h1>
+          <div class="py-3">
+            <a
+              class="accordion_button collapsed"
+              type="button"
+              href="#collapseOne"
+              role="button"
+              data-bs-toggle="collapse"
+              aria-expanded="false"
+              aria-controls="collapse"
+            >
+              How many team members can I invite?
+            </a>
+            <div class="collapse" id="collapseOne">
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </div>
+          </div>
+          <div class="py-3">
+            <a
+              href="#collapseTwo"
+              class="accordion_button collapsed"
+              type="button"
+              role="button"
+              data-bs-toggle="collapse"
+              aria-expanded="false"
+              aria-controls="collapse"
+            >
+              What is the maximum file upload size?
+            </a>
+            <div class="collapse" id="collapseTwo">
+              No more than 2GB. All files in your account must fit your allotted
+              storage space.
+            </div>
+          </div>
+          <div class="py-3">
+            <a
+              href="#collapseThree"
+              class="accordion_button collapsed"
+              type="button"
+              role="button"
+              data-bs-toggle="collapse"
+              aria-expanded="false"
+              aria-controls="collapse"
+            >
+              How do I reset my password?
+            </a>
+            <div class="collapse" id="collapseThree">
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </div>
+          </div>
+          <div class="py-3">
+            <a
+              href="#collapseFour"
+              class="accordion_button collapsed"
+              type="button"
+              role="button"
+              data-bs-toggle="collapse"
+              aria-expanded="false"
+              aria-controls="collapse"
+            >
+              Can I cancel my subscription?
+            </a>
+            <div class="collapse" id="collapseFour">
+              Yes! Send us a message and we’ll process your request no questions
+              asked.
+            </div>
+          </div>
+          <div class="py-3">
+            <a
+              href="#collapseFive"
+              class="accordion_button collapsed"
+              type="button"
+              role="button"
+              data-bs-toggle="collapse"
+              aria-expanded="false"
+              aria-controls="collapse"
+            >
+              Do you provide additional support?
+            </a>
+            <div class="collapse" id="collapseFive">
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution mb-5">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        style="color: white"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#" style="color: white">RuckyTheWebDesigner</a>.
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
